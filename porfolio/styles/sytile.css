@@ -1,0 +1,9 @@
+/* para dar estilo al menú */
+#menu{background-color:pink;}
+/* dar estilo a la lista de dentro del menú */
+/* #menu ul quita los puntos de los elementos de la lista */
+#menu ul{list-style:none;}
+/* da color rojo a los elementos de la lista y los pone en una línea */
+#menu li{background-color:red;display:inline;}
+/* #menu a quita la raya de los elementos de la lista y da color a la letra*/
+#menu a{text-decoration:none;color:white}
