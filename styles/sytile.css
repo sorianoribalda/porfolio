@@ -1,0 +1,23 @@
+/* para dar estilo al menú */
+#menu{background-color:darkgrey;}
+/* dar estilo a la lista de dentro del menú */
+/* #menu ul quita los puntos de los elementos de la lista */
+#menu ul{text-align: center;list-style:none;}
+/* da color rojo a los elementos de la lista y los pone en una línea */
+#menu li{background-color:none;display:inline;}
+/* #menu a quita la raya de los elementos de la lista y da color a la letra*/
+#menu a{text-decoration:none; color:white}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+header{
+    background-image: url(/porfolio/images/IMG_Autor.JPG);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 150px;
+
+}
