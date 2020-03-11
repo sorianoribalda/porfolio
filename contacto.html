@@ -3,11 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Inicio</title>
-        <link rel='stylesheet' href="styles/sytile.css">
+        <link rel='stylesheet' href='styles/style.css'>
+        <link rel='icon' type='image/png' href='images/logojr.png'>
+
     </head>
-    <body>
+    <body id='top'>
         <header>
-        <h1>José Ramón Soriano</h1>
+            <figure>
+            <a href='index.html'><img id='logo' width='200' heigth='200' src='images/logojr.png' alt='Smiley face'></a>
+            </figure>
+        <a href='index.html'><h1>José Ramón Soriano</h1></a>
         <h2>Diseñador</h2>
         <div id='menu'>
             <ul>
@@ -35,10 +40,79 @@
                     <button type='button'>Enviar</button>
                 </div>
             </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12109.682505985147!2d-3.1478611999999995!3d40.642657449999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1583834411980!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
                 
         </main>
+        <p>
+        </p>
+        <form method='get'action='procesar.php'>
+  <fieldset>
+    <legend>Formulario de quejas y sugerencias</legend>
+  <div>
+      <label for id='nombre'>Escribe tu nombre</label>
+      <input type='text' id='nombre' name='nombre'>
+  </div>
+  <div>
+      <label for='quejas'>Quejas y sugerencias</label>
+      <textarea id='quejas' name='quejas' placeholder='Escribe tus quejas'></textarea>
+  </div>
+  <div>
+    <p>Dinos tus estudios</p>
+    <div>
+        <input id='primaria' type='radio' name='estudios' value='primaria'>
+        <label for='primaria'>Primaria</label>
+    </div>
+      <div>
+        <input id='secundaria' type='radio' name='estudios' value='secundaria'>
+        <label for='secundaria'>E.S.O.</label>
+    </div>
+      <div>
+        <input id='bachillerato' type='radio' name='estudios' value='bachillerato'>
+        <label for='bachillerato'>Bachillerato</label>
+    </div>
+      <div>
+        <input id='estudios-superiores' type='radio' name='estudios' value='estudios-superiores'>
+        <label for='estudios-superiores'>Estudios Superiores</label>
+      </div>
+  </div>
+  <div>
+        <label for='carnet'>Carnet de Conducir</label>
+        <input id='carnet' type='checkbox' name='carnet' value='si'>
+      </div>
+  <div>
+    <label for='provincia'>¿De qué provincia de Castilla la Mancha eres?</label>
+    <select id='provincia'name='provincia'>
+      <option value=''></option>
+      <option value='albacete'>Albacete</option>
+      <option value='ciudad-real'>Ciudad Real</option>
+      <option value='cuenca'>Cuenca</option>
+      <option value='guadalajara'>Guadalajara</option>
+      <option value='toledo'>Toledo</option>
+    </select>
+  </div>
+  <div>
+    <input type='submit'>
+    <input type='reset'>
+    <button type='submit'>Enviar a sugerencias</button>
+  </div>
+</fieldset>
+</form>
         <footer>
-            <button>Ir arriba</button>
+            <p></p>
+
+            <div>
+                &copy;copyright 2020
+            </div>
+            <a href='#top'>Ir arriba</a>
+            <nav>
+                <div>
+                    <a href='https://codepen.io/'><img width='150' src='images/logo%20codepen.png' alt='Smiley face'></a>
+               </div>
+                <div>
+                    <a href='https://github.com//'><img width='150' src='images/github.png' alt='Smiley face'></a>
+                </div>
+            </nav>
         </footer>
     
     </body>
